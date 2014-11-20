@@ -15,7 +15,7 @@
 
 
 
-
+<a class="page-scroll" href="#Panorama">Panorama</a>
 
 <div id="logo1"><a href="http://www.uni-weimar.de"><img src="http://www.uni-weimar.de/medien/wiki/skins/bauhausmedien/logos/uni_wortmarke.jpg" alt="Bauhaus-Universität Weimar" /></a><br /><a href="http://www.uni-weimar.de/cms/medien.html"><img src="http://www.uni-weimar.de/medien/wiki/skins/bauhausmedien/logos/faculty_media.png" /></a></div><!-- logo1 -->
 
@@ -317,6 +317,24 @@ Retrieved from "<a href="http://www.uni-weimar.de/medien/wiki/Help:Images">http:
   </div> <!-- id: portlet.p-cactions-->
 </div> <!-- id: globalWrapper -->
 
+<script>
+    $( document ).ready(function() {
+      $(".page-scroll a").on('click', function(e) {
+        var hash = this.hash;
+
+        e.preventDefault();
+        var t = 0;
+
+        if ($(this.hash).length) {
+            t = $(this.hash).offset().top
+        }
+        $('html, body').animate({scrollTop:t}, "300", function(){
+            window.location.hash = hash;
+        });
+      });
+
+    });
+    </script>
 
 
 
