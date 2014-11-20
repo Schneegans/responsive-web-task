@@ -14,3 +14,16 @@ body {
 .side-nav>ul>li>a:hover {
   color: #434a54;
 }
+
+.affix-top {
+  width: 25%;
+}
+
+.affix {
+  width: 25%;
+  position: fixed;
+}
+
+.affix-bottom {
+  width: 25%;
+}
