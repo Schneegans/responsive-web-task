@@ -1,0 +1,16 @@
+body {
+  background-color: #f1f2f6;
+}
+
+.side-nav>ul {
+  list-style: none;
+}
+
+.side-nav>ul>li>a {
+  text-decoration: none;
+  color: #aeaeae;
+}
+
+.side-nav>ul>li>a:hover {
+  color: #434a54;
+}
