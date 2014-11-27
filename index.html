@@ -20,23 +20,31 @@
   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
 
+
+
+      <div class="hidden-xs navbar-form navbar-right" style="margin: 8px 10px" role="search">
+        <div class="form-search search-only">
+          <i class="search-icon glyphicon glyphicon-search"></i>
+          <input type="text" class="form-control search-query">
+        </div>
+      </div>
+
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-
-        <div class="navbar-form navbar-right collapsed" style="margin: 8px 10px" role="search">
-          <div class="form-search search-only">
-            <i class="search-icon glyphicon glyphicon-search"></i>
-            <input type="text" class="form-control search-query">
-          </div>
-        </div>
-
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <span class="visible-xs-inline" role="search" style="float:left;margin: 8px 10px;">
+          <span class="form-search search-only" style="float:left">
+            <i class="search-icon glyphicon glyphicon-search"></i>
+            <input type="text" class="form-control search-query" style="display: inline!important; width:auto">
+          </span>
+        </span>
       </div>
+
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,6 +77,8 @@
             </ul>
           </li>
         </ul>
+
+
       </div><!-- /.navbar-collapse -->
 
     </div>
