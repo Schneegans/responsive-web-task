@@ -15,6 +15,12 @@ body {
   color: #434a54;
 }
 
+.topic {
+    background: url("../img/cloth_alike.png");
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
 .affix-top {
   width: 100%;
 }
