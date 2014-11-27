@@ -15,10 +15,14 @@ body {
   color: #434a54;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 .topic {
-    background: url("../img/cloth_alike.png");
-    padding: 20px 0;
-    margin: 10px 0;
+    background: url("../img/shattered.png");
+    padding: 40px 0 0 0;
+    margin: 0 0 20px 0;
 }
 
 .affix-top {
