@@ -134,28 +134,117 @@
 
       <h2 id="basics"> Basics </h2>
 
-      <p>This is a short introduction how to use images in this wiki. It quickly highlights the principles when using images in the wiki.
-      </p>
-      <p>Before you upload anything to this wiki, you must
-      </p>
+      <p> This is a short introduction how to use images in this wiki. It quickly highlights the principles when using images in the wiki.</p>
+      <p> Before you upload anything to this wiki, you must </p>
+
       <ol>
-      <li> be absolutely sure to either be the copyright owner of the file, have a written approval that you can upload the file, or the file is under a license which allows you to use it.
-      </li>
-      <li> choose which licence you want to put your image under if you are the copyright holder or obey and mention the license the image is under if you can use it.
-      </li>
+        <li> be absolutely sure to either be the copyright owner of the file, have a written approval that you can upload the file, or the file is under a license which allows you to use it.</li>
+        <li> choose which licence you want to put your image under if you are the copyright holder or obey and mention the license the image is under if you can use it.</li>
       </ol>
-      <p>Read more about where to find images you may use  under <a href="http://www.uni-weimar.de/medien/wiki/Sources/Images" title="Sources/Images">Sources/Images</a>.
-      </p>
+      <p> Read more about where to find images you may use  under <a href="http://www.uni-weimar.de/medien/wiki/Sources/Images" title="Sources/Images">Sources/Images</a>.</p>
+
       <ol>
-      <li> First thing you do is to <b>edit the page where you want to use a picture</b>. Do the uploading later.
-      </li>
-      <li> Type <tt>[[File:Your descriptive filename here.jpg]]</tt> or <b>use the insert file button in the tool bar</b><br><a href="http://www.uni-weimar.de/medien/wiki/File:Insert_File.png" class="image"><img alt="Insert File.png" src="http://www.uni-weimar.de/medien/wiki/images/Insert_File.png" width="323" height="81"></a><br> If you use the tool bar, you must <b>change the default file name</b> to a name that briefly describes your Image.
-      </li>
-      <li> <b>Add the layout options</b>. The table below gives you an overview on which options you have when including images.
-      </li>
-      <li> Once you edited and saved your page you have a greyed out image link like this one <a href="http://www.uni-weimar.de/medien/wiki/index.php5?title=Special:Upload&amp;wpDestFile=Not_yet_existant_image.png" class="new" title="File:Not yet existant image.png">File:Not yet existant image.png</a>. If you click on it it will direct you to the upload page. Where you can <b>Upload the yet missing File</b>. The filename of the uploaded image will be renamed to the one you have written in the article, it is not necessary that they match. (Example: you write in the wiki <tt>[[File:Michael Mustermann Projekt XY.png]]</tt> and later you can upload a file called DSC894732.png. Your File will be renamed automatically, just the filetype needs to match) Make sure you upload in a resolution so it can also be used for printing at a later point. A reasonable file size is from 1 to 5 MB for a jpeg file depending on the pixel size. Important: choose the license you want to put your image under.
-      </li>
+        <li> First thing you do is to <b>edit the page where you want to use a picture</b>. Do the uploading later. </li>
+        <li> Type <tt>[[File:Your descriptive filename here.jpg]]</tt> or <b>use the insert file button in the tool bar</b><br><a href="http://www.uni-weimar.de/medien/wiki/File:Insert_File.png" class="image"><img alt="Insert File.png" src="http://www.uni-weimar.de/medien/wiki/images/Insert_File.png" width="323" height="81"></a><br> If you use the tool bar, you must <b>change the default file name</b> to a name that briefly describes your Image. </li>
+        <li> <b>Add the layout options</b>. The table below gives you an overview on which options you have when including images. </li>
+        <li> Once you edited and saved your page you have a greyed out image link like this one <a href="http://www.uni-weimar.de/medien/wiki/index.php5?title=Special:Upload&amp;wpDestFile=Not_yet_existant_image.png" class="new" title="File:Not yet existant image.png">File:Not yet existant image.png</a>. If you click on it it will direct you to the upload page. Where you can <b>Upload the yet missing File</b>. The filename of the uploaded image will be renamed to the one you have written in the article, it is not necessary that they match. (Example: you write in the wiki <tt>[[File:Michael Mustermann Projekt XY.png]]</tt> and later you can upload a file called DSC894732.png. Your File will be renamed automatically, just the filetype needs to match) Make sure you upload in a resolution so it can also be used for printing at a later point. A reasonable file size is from 1 to 5 MB for a jpeg file depending on the pixel size. Important: choose the license you want to put your image under. </li>
       </ol>
+
+      <h2 id="basics"> Options </h2>
+
+      <p>
+      Simply placing an image in 100%. (The <span class="tooltip"><span class="tooltip_abbr">dpi</span><span class="tooltip_tipwrapper"><span class="tooltip_tip"><span>[[Druckvorstufe|dots per inch]]</span></span></span></span> of the image will be ignored, every pixel information will be displayed) If you have a high-res image this will be too huge and exceed the boundaries of the page.
+      </p>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> [[File:Pelly.jpg]] </h3>
+        </div>
+        <div class="panel-body">
+          <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="image"><img alt="Pelly.jpg" src="http://www.uni-weimar.de/medien/wiki/images/thumb/Pelly.jpg/400px-Pelly.jpg" width="400" height="373"></a>
+        </div>
+      </div>
+
+
+      <p>
+      Scaling the image to exactly 250 pixels in width
+      </p>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> [[File:Pelly.jpg|250px]] </h3>
+        </div>
+        <div class="panel-body">
+          <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="image"><img alt="Pelly.jpg" src="http://www.uni-weimar.de/medien/wiki/images/thumb/Pelly.jpg/250px-Pelly.jpg" width="250" height="233"></a>
+        </div>
+      </div>
+
+
+      <p>
+      Scaling the image to thumbnail size. It will be right aligned by default.
+      </p>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"> [[File:Pelly.jpg|thumb]] </h3>
+        </div>
+        <div class="panel-body">
+          <div class="pull-right"><div style="width:182px;">
+          <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="image"><img alt="Pelly.jpg" src="http://www.uni-weimar.de/medien/wiki/images/thumb/Pelly.jpg/180px-Pelly.jpg" width="180" height="168" class="thumbimage"></a>  <div><div class="magnify"><a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="internal" title="Enlarge"><img src="http://www.uni-weimar.de/medien/wiki/skins/common/images/magnify-clip.png" width="15" height="11" alt=""></a></div></div>
+          </div></div>
+        </div>
+      </div>
+
+      <table align="center" border="2" width="100%" cellspacing="4" cellpadding="3" rules="all" style="margin:1em 1em 1em 0; border:solid 1px #AAAAAA;empty-cells:show;vertical-align:top;">
+        <tr>
+        <td style="width:160px"><b>Description</b></td>
+        <td><b>You type</b></td>
+        <td>
+        <b>You get</b>
+        </td>
+        </tr>
+
+
+        <tr>
+        <td>Thumbnail size and caption below the image
+        </td>
+        <td>[[File:Pelly.jpg|thumb|Caption for the Image]]
+        </td>
+        <td>
+        <div class="thumb tright"><div class="thumbinner" style="width:182px;">
+        <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="image"><img alt="" src="http://www.uni-weimar.de/medien/wiki/images/thumb/Pelly.jpg/180px-Pelly.jpg" width="180" height="168" class="thumbimage"></a>  <div class="thumbcaption">
+        <div class="magnify"><a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="internal" title="Enlarge"><img src="http://www.uni-weimar.de/medien/wiki/skins/common/images/magnify-clip.png" width="15" height="11" alt=""></a></div>Caption for the Image</div>
+        </div></div>
+        </td>
+        </tr>
+        <tr>
+        <td>Float the thumbnail on the left side
+        </td>
+        <td>[[File:Pelly.jpg|left|thumb|Caption for the Image]]
+        </td>
+        <td>
+        <div class="thumb tleft"><div class="thumbinner" style="width:182px;">
+        <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="image"><img alt="" src="http://www.uni-weimar.de/medien/wiki/images/thumb/Pelly.jpg/180px-Pelly.jpg" width="180" height="168" class="thumbimage"></a>  <div class="thumbcaption">
+        <div class="magnify"><a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" class="internal" title="Enlarge"><img src="http://www.uni-weimar.de/medien/wiki/skins/common/images/magnify-clip.png" width="15" height="11" alt=""></a></div>Caption for the Image</div>
+        </div></div>
+        </td>
+        </tr>
+        <tr>
+        <td>To not show the image, but only link to its page with the credits and copyright information prepend a : before File:
+        </td>
+        <td>[[:File:Pelly.jpg]]
+        </td>
+        <td>
+        <a href="http://www.uni-weimar.de/medien/wiki/File:Pelly.jpg" title="File:Pelly.jpg">File:Pelly.jpg</a>
+        </td>
+        </tr>
+        <tr>
+        <td>If you don't want to display the image at all but provide a download link instead, then write Media: instead of File:
+        </td>
+        <td>[[Media:Pelly.jpg]]
+        </td>
+        <td>
+        <a href="http://www.uni-weimar.de/medien/wiki/images/Pelly.jpg" class="internal" title="Pelly.jpg">Media:Pelly.jpg</a>
+        </td>
+        </tr>
+      </table>
 
       <div class="well">
 
@@ -179,7 +268,7 @@
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
 
-      <h2 id="links"> Image Links </h2>
+      <h2 id="links"> Link Images </h2>
 
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
@@ -187,9 +276,10 @@
     </div>
 
     <div class="col-md-3">
-      <div class="nav side-nav" data-spy="affix" data-offset-top="300" data-offset-bottom="240">
+      <div class="nav side-nav hidden-sm hidden-xs" data-spy="affix" data-offset-top="300" data-offset-bottom="240">
         <ul>
           <li class="page-scroll"><a href="#basics">Basics</a></li>
+          <li class="page-scroll"><a href="#options">Options</a></li>
           <li class="page-scroll"><a href="#galleries">Image Galleries</a></li>
           <li class="page-scroll"><a href="#panorama">Panorama</a></li>
           <li class="page-scroll"><a href="#links">Link Images</a></li>
