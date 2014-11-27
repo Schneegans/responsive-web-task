@@ -16,14 +16,14 @@ body {
 }
 
 .affix-top {
-  width: 25%;
+  width: 100%;
 }
 
 .affix {
-  width: 25%;
+  width: 100%;
   position: fixed;
 }
 
 .affix-bottom {
-  width: 25%;
+  width: 100%;
 }
