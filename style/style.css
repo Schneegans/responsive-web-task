@@ -28,6 +28,7 @@ body {
 .affix {
   width: 100%;
   position: fixed;
+  top: 10px;
 }
 
 .affix-bottom {
