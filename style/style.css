@@ -2,6 +2,10 @@ body {
   background-color: #f1f2f6;
 }
 
+h2 {
+  margin-top: 50px;
+}
+
 .side-nav>ul {
   list-style: none;
 }
@@ -44,4 +48,13 @@ body {
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.footer-logo, .footer-nav {
+    width: 25%;
+}
+
+pre {
+  background: none;
+  border: none;
 }
