@@ -29,6 +29,10 @@ h2 {
     margin: 0 0 20px 0;
 }
 
+.panel-body {
+  overflow-x: auto;
+}
+
 .affix-top {
   width: 100%;
 }
