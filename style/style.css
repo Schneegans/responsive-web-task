@@ -38,3 +38,10 @@ body {
 .affix-bottom {
   width: 100%;
 }
+
+.panorama {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
