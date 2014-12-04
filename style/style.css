@@ -54,6 +54,18 @@ h2 {
     width: 25%;
 }
 
+.footer {
+  color: #e6e9ed;
+}
+
+.footer a {
+  color: #aab2bd;
+}
+
+.footer a:hover {
+  color: #e6e9ed;
+}
+
 pre {
   background: none;
   border: none;
